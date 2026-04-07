@@ -102,19 +102,15 @@ Filtering on `actFeedRate == 1852` (exact steady-state feed) rather than `> 500`
 ```
 cnc-tool-wear-classifier/
 │
-├── sklearn_rf.py          # Random Forest classifier (full pipeline)
-├── pytorch_nn.py          # Neural network classifier (full pipeline)
+├── sklearnv classification.py          # Random Forest classifier (full pipeline)
+├── pytorch classification.py          # Neural network classifier (full pipeline)
 │
-├── data/
-│   └── README.md          # Data format description (CSVs not included)
+├── README.md          # Data format description (CSVs not included)
 │
 ├── outputs/
-│   ├── confusion_matrix_final.png
-│   └── feature_importance.png
-│
-├── .gitignore
-├── requirements.txt
-└── README.md
+   ├── confusion_matrix_final.png
+   └── feature_importance.png
+
 ```
 
 ---
